@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this archive."
+title: "Simulation code for: Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"
+authors:
+  - family-names: Arai
+    given-names: Yasushi
+    orcid: "https://orcid.org/0009-0005-7300-4234"
+    affiliation: "Production Division, Alfresa Pharma Corporation, Osaka, Japan"
+version: "1.0.0"
+date-released: "2026-09-12"
+license: MIT
+repository-code: "[EDIT: GitHub URL]"
+doi: "[EDIT: Zenodo DOI]"
