@@ -9,5 +9,5 @@ authors:
 version: "1.0.0"
 date-released: "2026-09-12"
 license: MIT
-repository-code: "[EDIT: GitHub URL]"
-doi: "[EDIT: Zenodo DOI]"
+repository-code: "https://github.com/apo-cyber/arrhenius-r2-criterion"
+doi: "10.5281/zenodo.22726460"

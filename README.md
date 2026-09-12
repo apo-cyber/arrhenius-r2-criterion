@@ -1,5 +1,7 @@
 # Simulation code for "Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"
 
+[![DOI](https://zenodo.org/badge/1367340138.svg)](https://doi.org/10.5281/zenodo.22726459)
+
 Yasushi Arai, 2026. Companion code archive for the manuscript submitted to *Journal of Pharmaceutical Sciences*.
 
 Six short, self-contained Python scripts (NumPy + SciPy; Matplotlib for the figures). No measured stability data are used;
@@ -37,4 +39,4 @@ $\ln(C/C_0) = -k(T)\,t + \varepsilon$, $\varepsilon\sim N(0,\sigma^2)$; $\ln k(T
 
 ## Licence and citation
 
-Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive (`CITATION.cff`; Zenodo DOI to be added).
+Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive: concept DOI https://doi.org/10.5281/zenodo.22726459 (v1.0.0: https://doi.org/10.5281/zenodo.22726460). See `CITATION.cff`.
