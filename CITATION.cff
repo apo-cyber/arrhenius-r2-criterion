@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper and this archive."
-title: "Simulation code for: Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"
+title: "Simulation code for: The Arrhenius-plot R-squared criterion bounds the precision of the activation energy and cannot detect non-Arrhenius behaviour: an exact identity and a simulation study of accelerated stability designs"
 authors:
   - family-names: Arai
     given-names: Yasushi
     orcid: "https://orcid.org/0009-0005-7300-4234"
-    affiliation: "Production Division, Alfresa Pharma Corporation, Osaka, Japan"
+    affiliation: "Supply Chain Headquarters, Alfresa Pharma Corporation, Osaka, Japan"
 version: "1.0.0"
 date-released: "2026-09-12"
 license: MIT

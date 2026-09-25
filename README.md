@@ -1,8 +1,8 @@
-# Simulation code for "Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"
+# Simulation code for "The Arrhenius-plot R-squared criterion bounds the precision of the activation energy and cannot detect non-Arrhenius behaviour: an exact identity and a simulation study of accelerated stability designs"
 
 [![DOI](https://zenodo.org/badge/1367340138.svg)](https://doi.org/10.5281/zenodo.22726459)
 
-Yasushi Arai, 2026. Companion code archive for the manuscript submitted to *Journal of Pharmaceutical Sciences*.
+Yasushi Arai, 2026. Companion code archive for the manuscript (under submission). Version 1.0.0 of this archive was released under the manuscript's earlier title, "Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"; the code and outputs are unchanged.
 
 Six short, self-contained Python scripts (NumPy + SciPy; Matplotlib for the figures). No measured stability data are used;
 every table and figure in the paper is produced from the generating model described in the paper's Methods section,
