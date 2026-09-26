@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1367340138.svg)](https://doi.org/10.5281/zenodo.22726459)
 
-Yasushi Arai, 2026. Companion code archive for the manuscript (under submission). Version 1.0.0 of this archive was released under the manuscript's earlier title, "Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?"; the code and outputs are unchanged.
+Yasushi Arai, 2026. Companion code archive for the manuscript (under submission). Version 1.0.0 (2026-09-12) of this archive was released under the manuscript's earlier title, "Does the Arrhenius-plot R-squared criterion detect non-Arrhenius behaviour in accelerated stability data?". Version 1.0.1 (2026-09-26) changes `make_figures.py` only: the title of Figure 1 panel (c) is shortened (it was clipped at the right edge of the figure) and the TIFF outputs are flattened to RGB (no alpha channel). The numerical code and the outputs in `output/` are unchanged in both versions.
 
 Six short, self-contained Python scripts (NumPy + SciPy; Matplotlib for the figures). No measured stability data are used;
 every table and figure in the paper is produced from the generating model described in the paper's Methods section,
@@ -18,7 +18,7 @@ which is the same first-order / modified-Arrhenius model as the companion study'
 | `robustness_checks.py` | Table S1; Sections 4.1–4.3 | Calibration anchors with matched pure-Arrhenius controls (A), $E_a$ levels (B), deviation size $n=\pm1,\pm2,\pm4$ (C), thresholds 0.90/0.95/0.99 (D), lack-of-fit $F$ vs $\chi^2$ (E), zero-/second-order truths (F), seed stability (G) |
 | `r2_break.py` | Table 3 | Two-segment Arrhenius truths (break inside / below the accelerated range) with matched controls |
 | `realtime_power.py` | Table 2, Table S2, Section 4.5 (batch variation, one-sided variant); Figure S1 data | Probability that real-time data at 25 °C reject a claimed shelf life $X$ times the true value: duration, batches × replicates, batch-to-batch variation with three treatments of the batches (replicates / ICH Q1E poolability gate / batch as unit) |
-| `make_figures.py` | Figures 1, 2 and S1 | Imports `robustness_checks` and `realtime_power`; writes PNG (draft), PDF (vector, submission) and TIFF 600 dpi |
+| `make_figures.py` | Figures 1, 2 and S1 | Imports `robustness_checks` and `realtime_power`; writes PNG (draft), PDF (vector, submission) and TIFF 600 dpi (RGB, LZW) |
 
 Each script prints its tables to stdout; the `.txt` files in `output/` are the runs used for the paper (seeds are fixed in the scripts).
 Script docstrings and printed table headers are in Japanese (the working language of the project); column meanings are given in this README and in the paper.
@@ -39,4 +39,4 @@ $\ln(C/C_0) = -k(T)\,t + \varepsilon$, $\varepsilon\sim N(0,\sigma^2)$; $\ln k(T
 
 ## Licence and citation
 
-Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive: concept DOI https://doi.org/10.5281/zenodo.22726459 (v1.0.0: https://doi.org/10.5281/zenodo.22726460). See `CITATION.cff`.
+Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive: concept DOI https://doi.org/10.5281/zenodo.22726459 (v1.0.0: https://doi.org/10.5281/zenodo.22726460; the version DOI of v1.0.1 will be added here once Zenodo has archived the release). See `CITATION.cff`.

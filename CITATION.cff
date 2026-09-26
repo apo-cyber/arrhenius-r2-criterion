@@ -6,8 +6,8 @@ authors:
     given-names: Yasushi
     orcid: "https://orcid.org/0009-0005-7300-4234"
     affiliation: "Supply Chain Headquarters, Alfresa Pharma Corporation, Osaka, Japan"
-version: "1.0.0"
-date-released: "2026-09-12"
+version: "1.0.1"
+date-released: "2026-09-26"
 license: MIT
 repository-code: "https://github.com/apo-cyber/arrhenius-r2-criterion"
-doi: "10.5281/zenodo.22726460"
+doi: "10.5281/zenodo.22726459"  # concept DOI (resolves to the latest version); replace with the v1.0.1 version DOI once Zenodo has archived the release

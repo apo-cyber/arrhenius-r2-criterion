@@ -38,6 +38,11 @@ def save(fig, stem):
     fig.savefig(OUT / f"{stem}.png")
     fig.savefig(OUT / f"{stem}.pdf")
     fig.savefig(OUT / f"{stem}.tiff", dpi=600, pil_kwargs={"compression": "tiff_lzw"})
+    # matplotlib の TIFF は RGBA(全画素不透明でもアルファが残る)。投稿用に白背景へ平坦化して RGB にする
+    from PIL import Image
+    with Image.open(OUT / f"{stem}.tiff") as im:
+        flat = Image.new("RGB", im.size, "white"); flat.paste(im, mask=im.getchannel("A"))
+    flat.save(OUT / f"{stem}.tiff", compression="tiff_lzw", dpi=(600, 600))
 GREY = "#555555"
 
 
@@ -106,7 +111,7 @@ def fig_nomogram():
     axes[2].text(0.01, 0.98, "0.99", ha="center", va="top", fontsize=7, color=GREY)
     axes[0].set_title("(a) What $R^2$ certifies about $E_a$", fontsize=8.5, loc="left")
     axes[1].set_title("(b) …as width of $t_{90}$(25 °C), $E_a$=80", fontsize=8.5, loc="left")
-    axes[2].set_title("(c) …as 95% lower bound, plot alone", fontsize=8.5, loc="left")
+    axes[2].set_title("(c) …as 95% lower bound", fontsize=8.5, loc="left")
     fig.tight_layout()
     save(fig, "fig1_r2_nomogram"); plt.close(fig)
 
