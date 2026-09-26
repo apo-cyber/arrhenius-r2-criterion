@@ -39,4 +39,4 @@ $\ln(C/C_0) = -k(T)\,t + \varepsilon$, $\varepsilon\sim N(0,\sigma^2)$; $\ln k(T
 
 ## Licence and citation
 
-Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive: concept DOI https://doi.org/10.5281/zenodo.22726459 (v1.0.0: https://doi.org/10.5281/zenodo.22726460; the version DOI of v1.0.1 will be added here once Zenodo has archived the release). See `CITATION.cff`.
+Code: MIT (see `LICENSE`). Please cite the paper (reference to be added on publication) and this archive: concept DOI https://doi.org/10.5281/zenodo.22726459 (v1.0.0: https://doi.org/10.5281/zenodo.22726460; v1.0.1: https://doi.org/10.5281/zenodo.22969995). See `CITATION.cff`.

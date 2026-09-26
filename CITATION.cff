@@ -10,4 +10,4 @@ version: "1.0.1"
 date-released: "2026-09-26"
 license: MIT
 repository-code: "https://github.com/apo-cyber/arrhenius-r2-criterion"
-doi: "10.5281/zenodo.22726459"  # concept DOI (resolves to the latest version); replace with the v1.0.1 version DOI once Zenodo has archived the release
+doi: "10.5281/zenodo.22969995"
